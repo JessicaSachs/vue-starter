@@ -1,5 +1,7 @@
 # vue-starter
 
+A starter containing vue-class-component, vue-property-decorator, vue-styleguidist.
+
 ## Project setup
 ```
 npm install
@@ -23,6 +25,11 @@ npm run test
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+## Running Styleguidist
+```
+npm run styleguide
 ```
 
 ### Customize configuration
