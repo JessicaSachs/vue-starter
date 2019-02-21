@@ -5,7 +5,7 @@ module.exports = {
     plugins: [
         ['@babel/plugin-transform-runtime', {
             regenerator: true,
-            ignore: ['src/javascripts/pop/**/*.es5.js', 'node_modules/@babel/runtime'],
+            ignore: ['node_modules/@babel/runtime'],
         }],
         ['@babel/plugin-syntax-dynamic-import'],
         ['@babel/plugin-transform-shorthand-properties'],
